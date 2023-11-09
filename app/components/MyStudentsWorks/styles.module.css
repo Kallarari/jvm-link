@@ -1,0 +1,50 @@
+.container {
+    width: 100vw;
+    padding: 20px 0;
+  }
+  .title {
+    width: 100vw;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-bottom: 30px;
+  }
+  .galery {
+    width: 100vw;
+    overflow: scroll;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+  }
+  .projectContainer {
+    min-width: 30vw;
+    height: 200px;
+    border-radius: 10px;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    border: 2px solid black;
+  }
+  .footerText {
+      color:white;
+      text-align: center;
+      width: 90%;
+  }
+  .projectFooter {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      #000 26.69%
+    );
+    margin-top: auto;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
