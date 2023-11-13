@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./styles.module.css";
+import Card from "../MyStudentsWorks/card";
 
 const MyWorks: React.FC = () => {
   const projetos = [
@@ -42,17 +43,7 @@ const MyWorks: React.FC = () => {
       <h2 className={styles.title}>MEUS PROJETOS</h2>
       <div className={styles.galery}>
         {projetos.map((item,key) => (
-          <div
-          key={key}
-            className={styles.projectContainer}
-            style={{
-              backgroundImage: `url(./${item.image})`,
-            }}
-          >
-            <div className={styles.projectFooter}>
-              <p className={styles.footerText}>{item.name}</p>
-            </div>
-          </div>
+          <Card name={item.name} image={item.image} key={key} />
         ))}
       </div>
     </div>

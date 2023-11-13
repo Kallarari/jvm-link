@@ -20,7 +20,8 @@ export default function Home() {
         className={styles.image}
         style={{ marginTop: !initi ? "0px" : "-50vh" }}
       >
-        <h1 className={styles.NameTitle}>João Vitor Minosso</h1>
+        <h1 className={styles.NameTitleTop}>João Vitor Minosso</h1>
+        <h1 className={styles.NameTitle}>Professor e desenvolvedor web</h1>
       </div>
       <div className={styles.container}>
         <Button link="https://api.whatsapp.com/send/?phone=5548999383088&text=Ol%C3%A1+Jo%C3%A3o%2C+quero+saber+mais+sobre+as+aulas+particulares%21&type=phone_number&app_absent=0">
