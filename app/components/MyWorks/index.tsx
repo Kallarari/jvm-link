@@ -41,8 +41,9 @@ const MyWorks: React.FC = () => {
     <div className={styles.container}>
       <h2 className={styles.title}>MEUS PROJETOS</h2>
       <div className={styles.galery}>
-        {projetos.map((item) => (
+        {projetos.map((item,key) => (
           <div
+          key={key}
             className={styles.projectContainer}
             style={{
               backgroundImage: `url(./${item.image})`,
