@@ -10,7 +10,9 @@ import Footer from "./components/Footer";
 export default function Home() {
   const [initi, setInit] = useState(false);
   useEffect(() => {
-    setInit(true);
+    setTimeout(() => {
+      setInit(true);
+    }, 1500);
   }, []);
   return (
     <main className={styles.main}>
