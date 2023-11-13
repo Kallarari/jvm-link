@@ -14,7 +14,7 @@ const MyStudentsWorks: React.FC = () => {
     },
     {
       name: "Music app",
-      image: "music-app.png",
+      image: "music-app.PNG",
     },
     {
       name: "Horse web",
