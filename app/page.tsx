@@ -16,6 +16,15 @@ export default function Home() {
   }, []);
   return (
     <main className={styles.main}>
+      <div className={styles.pcview}>
+        <h1 className={styles.pcViewText}>Veja meu portfólio pessoal para web pelo link</h1>
+        <a
+          className={styles.SiteLink}
+          href="https://portfolio-kallarari.vercel.app/"
+        >
+          Meu portfólio
+        </a>
+      </div>
       <div
         className={styles.image}
         style={{ marginTop: !initi ? "0px" : "-50vh" }}

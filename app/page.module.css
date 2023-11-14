@@ -40,3 +40,38 @@
   flex-direction: column;
   gap: 20px;
 }
+.pcview {
+  display: none;
+}
+@media (min-width: 700px) {
+  .image,
+  .container {
+    display: none;
+  }
+  .pcview {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pcViewText {
+    color: white;
+  }
+  .SiteLink {
+    color: white;
+    text-decoration: underline;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 10vh;
+  }
+  .main {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+}
